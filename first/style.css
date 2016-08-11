@@ -175,7 +175,7 @@ section {
 
 form {
   clear: both;
-  margin-top: 80px;
+  margin: 80px 40px 0 40px;
 	padding:40px;
 	clear: both;
 	text-align: center;
