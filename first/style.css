@@ -104,6 +104,7 @@ h2 {
 
 .header_bottom {
 	height: 360px;
+  margin: 60px;
 }
 
 .bottom_left {
@@ -136,39 +137,44 @@ section {
   }
 
   .content {
+    box-sizing: border-box;
   	margin: 40px;
     height: 700px;
 
   }
 
 .post_1 {
-  width: 770px;
+  width: 65%;
   height: 300px;
   background-image: url(images/sample.jpg);
+  background-size: cover;
   float: left;
-   margin: 10px;
+  margin: 10px;
 }
 
 .post_2 {
-  width: 370px;
+  width: 30%;
   height: 300px;
   background-image: url(images/sample2.jpg);
+  background-size: cover;
   float: right;
-   margin: 10px;
+  margin: 10px;
 }
 
 .post_3 {
-  width: 370px;
+  width: 30%;
   height: 300px;
   background-image: url(images/sample3.jpg);
+  background-size: cover;
   float: left;
-   margin: 10px;
+  margin: 10px;
 }
 
 .post_4 {
-  width: 770px;
+  width: 65%;
   height: 300px;
   background-image: url(images/sample4.jpg);
+  background-size: cover;
   float: right;
   margin: 10px;
 }
@@ -195,6 +201,19 @@ form {
   	background-color: #343638;
 }
 
+article {
+  display: flex;
+  padding: 50px;
+}
+
+h4 {
+  padding-bottom:20px; 
+}
+
+.first, .second, .third, .fourth {
+  margin:10px 20px;
+}
+
 .primary-footer {
   color: #648880;
   font-size: 14px;
@@ -203,7 +222,6 @@ form {
 }
 
 .primary-footer small {
-  float: left;
   font-weight: 400;
 }
 
@@ -222,4 +240,9 @@ form {
 
 .container, .grid {
     margin: 0 auto;
+}
+
+footer nav span {
+  display: inline-block;
+  text-align: left;
 }
